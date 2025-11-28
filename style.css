@@ -10,7 +10,11 @@ font-family: 'Poppins', sans-serif;
 background-color: lightcoral;
 }
 .navbar h2{
-padding: 10px;
+    padding: 15px;
+    text-align: center;
+    font-size: xx-large;
+    color: white;
+    -webkit-text-stroke: 1.5px black; /* Stroke width and color */
 }
 .container h5{
 color: yellow;}
@@ -111,4 +115,27 @@ outline: none;
 }
 .popup-box textarea:focus{
 outline: none;
+}
+
+/* Mobile Responsive Code */
+@media screen and (max-width: 600px) {
+    
+    .book-container {
+        display: block;
+        width: 90%; /* மொபைலில் முழு நீளமும் எடுத்துக்கொள்ளும் */
+        margin: 20px auto; /* Center-ல் align ஆகும் */
+    }
+
+    .popup-box {
+        width: 80%; /* மொபைலில் Popup பாக்ஸ் பெரிதாக தெரியும் */
+        left: 5%; /* Center alignment */
+        top: 15%;
+    }
+    
+    .add-button {
+        bottom: 20px;
+        right: 20px;
+        padding: 15px 25px;
+        font-size: 30px;
+    }
 }
