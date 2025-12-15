@@ -4,7 +4,7 @@ padding: 0;
 }
 body{
 font-family: 'Poppins', sans-serif;
-}
+} 
 
 .navbar{
 background-color: lightcoral;
@@ -122,13 +122,13 @@ outline: none;
     
     .book-container {
         display: block;
-        width: 90%; /* மொபைலில் முழு நீளமும் எடுத்துக்கொள்ளும் */
-        margin: 20px auto; /* Center-ல் align ஆகும் */
+        width: 90%; 
+        margin: 20px auto;
     }
 
     .popup-box {
-        width: 80%; /* மொபைலில் Popup பாக்ஸ் பெரிதாக தெரியும் */
-        left: 5%; /* Center alignment */
+        width: 80%; 
+        left: 5%; 
         top: 15%;
     }
     
